@@ -1,4 +1,4 @@
-package sorting;
+package sorting.selectingsort;
 
 public class Main {
     public static void main(String[] args) {
