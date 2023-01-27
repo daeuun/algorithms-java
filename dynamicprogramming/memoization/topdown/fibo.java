@@ -1,7 +1,7 @@
 package dynamicprogramming.memoization.topdown;
 
 public class fibo {
-    public static long[] d = new long[100]; // momoziation 배열
+    public static long[] d = new long[100]; // memoization 배열
 
     public static long fibo(int x) {
         System.out.print("f(" + x + ") "); // 시간복잡도 O(N) : f(6) f(5) f(4) f(3) f(2) f(1) f(2) f(3) f(4)
